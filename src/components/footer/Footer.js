@@ -21,6 +21,7 @@ const Footer = () => {
             <li><a href="/">Inicio</a></li>
             <li><a href="/cars">Coches</a></li>
             <li><a href="/bikes">Motos</a></li>
+            <li><a href="/whishlist">WhishList</a></li>
             <li><a href="/contact">Contacta</a></li>
           </ul>
           <p>Visítanos en <a href="https://github.com/Canariiii">GitHub</a></p>

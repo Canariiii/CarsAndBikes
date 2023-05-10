@@ -18,6 +18,9 @@ const Header = (props) => {
         <a href="/bikes">
           <span>Motos</span>
         </a>
+        <a href="/whishlist">
+          <span>WhisList</span>
+        </a>
       </NavMenu>
       <Wrap>Hi</Wrap>
       <Login href="/">Login</Login>
