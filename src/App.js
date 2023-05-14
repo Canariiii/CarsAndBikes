@@ -4,6 +4,9 @@ import Contact from "./pages/contact/Contact";
 import Cars from "./pages/cars/Cars";
 import Bikes from "./pages/bikes/Bikes";
 import WhisList from "./pages/whislist/WishList";
+import Newsletter from "./pages/newsletter/NewsLetter";
+import XMLViewer from "./rss/RSSFeed";
+
 
 function App() {
   return (
@@ -15,7 +18,8 @@ function App() {
         <Route path="/cars" element={<Cars />} />
         <Route path="/bikes" element={<Bikes />} />
         <Route path="/whishlist" element={<WhisList />} />
-
+        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/rss" element={<XMLViewer />} />
       </Routes>
     </BrowserRouter>
   );

@@ -119,7 +119,8 @@ const NavMenu = styled.div`
     }
   }
   @media (max-width: 548px) {
-    display: none;
+    flex-direction: column;
+    display: flex;
   }
 `;
 

@@ -18,13 +18,14 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/cars">Coches</a></li>
-            <li><a href="/bikes">Motos</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cars">Cars</a></li>
+            <li><a href="/bikes">Bikes</a></li>
             <li><a href="/whishlist">WhishList</a></li>
-            <li><a href="/contact">Contacta</a></li>
+            <li><a href="/newsletter">NewsLetter</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
-          <p>Visítanos en <a href="https://github.com/Canariiii">GitHub</a></p>
+          <p>Visit us <a href="https://github.com/Canariiii">GitHub</a></p>
         </div>
       </div>
     </footer>

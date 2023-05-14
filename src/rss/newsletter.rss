@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ventas de Coches y Motos Exclusivas</title>
+    <link href="./newsletter.rss" rel="alternate" type="application/rss+xml" title="Ventas de Coches y Motos Exclusivas" />
+    <description>Últimas noticias sobre coches y motos exclusivas</description>
+    <language>es</language>
+
+    <!-- Noticia 1 -->
+    <item>
+      <title>Nueva BMW M1000RR 2023</title>
+      <link>https://www.motorbikemag.es/ficha-tecnica/bmw-m-1000-rr-2023/</link>
+      <description>La BMW M 1000 RR recibe su primera actualización para 2023 con nuevo trabajo aerodinámico en su carrocería que permite aumentar su velocidad máxima hasta los 314 km/h mientras que aumenta su carga aerodinámica en curva. También encontramos una nueva variante M Competition con otra decoración y algunos extras. </description>
+      <pubDate>Mon, 10 May 2023 10:00:00 GMT</pubDate>
+    </item>
+    <!-- Noticia 2 -->
+    <item>
+      <title>Nuevo Lamborghini Huracan</title>
+      <link>https://www.autobild.es/coches/lamborghini/huracan</link>
+      <description>Nuevo Lamborghini Huracan 2023</description>
+      <pubDate>Tue, 11 May 2023 15:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
