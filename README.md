@@ -18,11 +18,9 @@ CarsAndBikes es tu web para comprar los coches y motos más exclusivos del merca
 
 ## Características
 
-Busqueda de los coches y motos del catálogo, página con noticias sobre los nuevos vehículos que llegan al mercado con sistema de subscripción para que no te pierdas ninguna noticia y una página para que eligas el coche que te gustaría que añadieramos a la web.
-
-- Característica 1
-- Característica 2
-- Característica 3
+- Busqueda de los coches y motos del catálogo.
+- Página con noticias sobre los nuevos vehículos que llegan al mercado con sistema de subscripción para que no te pierdas ninguna noticia.
+- Página para que eligas el coche que te gustaría que añadieramos a la web.
 
 ## Capturas de pantalla
 
