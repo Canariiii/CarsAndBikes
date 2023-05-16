@@ -8,8 +8,6 @@ CarsAndBikes
 - [Características](#características)
 - [Capturas de pantalla](#capturas-de-pantalla)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
 - [Licencia](#licencia)
 
 ## Descripción
@@ -29,19 +27,85 @@ CarsAndBikes es tu web para comprar los coches y motos más exclusivos del merca
 
 ## Instalación
 
-Proporciona instrucciones paso a paso sobre cómo instalar y configurar tu proyecto localmente. Asegúrate de incluir cualquier requisito previo necesario, así como los comandos específicos que los usuarios deben ejecutar para comenzar.
+- Instalamos de manera global create-react-app
 
-## Uso
+```
+npm install -g create-react-app
+```
 
-Explica cómo utilizar tu proyecto. Proporciona ejemplos o comandos específicos para que los usuarios puedan aprovechar al máximo las funcionalidades de tu proyecto.
+- Ahora creamos nuestro proyecto y le ponemos nombre.
 
-## Contribución
+```
+create-react-app nombre-de-tu-proyecto
+```
 
-Si deseas que otros contribuyan a tu proyecto, es útil proporcionar directrices sobre cómo pueden hacerlo. Puedes explicar cómo configurar el entorno de desarrollo, cómo proponer cambios o cómo informar sobre problemas.
+- Luego entras a la carpeta de tu proyecto
+
+```
+cd nombre-de-tu-proyecto
+```
+
+- Ahora inicias el proyecto y levantas el servidor
+
+```
+npm start
+```
+
+## Entendiendo la estructura de carpetas
+
+
+- **Carpeta Public**
+
+Ahi se encuentra nuestro archivo index.html que es el que se mostrará en el navegador.
+En su interior solo tiene un div con el id 'root'
+
+```html
+<div id="root"></div>
+```
+
+
+- **Carpeta src**
+
+Empieza con toda la estructura del proyecto
+empieza con el archivo `index.js`
+
+
+Y lo que debes entender es:
+
+- `import` : se usa para importar funciones que han sido exportadas desde un módulo externo.
+
+
+*Mira el archivo index.js*
+
+```code en el archivo index.js
+import App from './App';
+```
+
+
+- `export` : La declaración export es usada para exportar funciones, objetos o tipos de dato primitivos a partir de un archivo (o módulo). 
+
+*Mira el archivo App.js*
+
+```code
+export default App;
+
+```
+
+## Archivos de src
+
+- `index.js` : Es el corazón del proyecto, se encuentran importados todos los recursos.
+
+- `index.css` : Es el css general de la aplicación.
+
+- `App.js` : Componente app de react
+
+- `App.css`: Es el css que se va a aplicar al componente App de React.
+
+Recuerda cada componente maneja su propio CSS
 
 ## Licencia
 
-Indica la licencia bajo la cual se distribuye tu proyecto. Puedes elegir una licencia de código abierto común, como MIT o Apache, y proporcionar un enlace a la descripción completa de la licencia.
+Licencia codigo abierto.
 
 ---
 
