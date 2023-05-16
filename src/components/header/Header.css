@@ -1,101 +1,85 @@
-header {
+.header {
+  background-color: black;
+  padding: 10px;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #333;
 }
 
-.logo img {
-  height: 50px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin-right: 20px;
-}
-
-nav li:last-child {
-  margin-right: 0;
-}
-
-nav a {
-  color: #fff;
+.logo {
+  font-size: 24px;
+  color: #333;
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-  header {
-  padding: 10px;
-  }
-  
-  .logo img {
-  height: 40px;
-  }
-  
-  nav ul {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  display: flex; 
-  }
-  
-  nav li {
-  margin: 10px 0;
-  }
-  
-  .menu-icon {
-  top: 10px;
-  right: 10px;
-  }
-  }
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-  header {
-  padding: 15px;
-  }
-  
-  .logo img {
-  height: 45px;
-  }
-  
-  nav ul {
-  margin-left: auto;
-  }
-  
-  nav li {
-  margin: 0 20px;
-  }
-  }
-  
-  @media screen and (min-width: 1024px) {
-  header {
-  padding: 20px;
-  }
-  
-  .logo img {
-  height: 50px;
-  }
-  
-  nav {
+.nav-links {
+  list-style: none;
   display: flex;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links li a:hover {
+  color: #ff0000;
+}
+
+/* Media queries */
+
+/* Para pantallas pequeñas */
+@media (max-width: 576px) {
+  .header {
+    padding: 5px;
   }
   
-  nav ul {
-  margin: 0;
+  .logo {
+    font-size: 20px;
+  }
+
+  .logo-img {
+    height: 25px;
   }
   
-  nav li {
-  margin: 0 20px;
+  .nav-links li {
+    margin-right: 10px;
+  }
+}
+
+/* Para pantallas medianas */
+@media (min-width: 577px) and (max-width: 991px) {
+  .header {
+    padding: 15px;
   }
   
-  .menu-icon {
-  display: none;
+  .logo {
+    font-size: 28px;
   }
+  
+  .nav-links li {
+    margin-right: 20px;
   }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 992px) {
+  .header {
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 32px;
+  }
+  
+  .nav-links li {
+    margin-right: 25px;
+  }
+}
