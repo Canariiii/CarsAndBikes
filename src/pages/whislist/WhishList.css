@@ -28,6 +28,38 @@ button[type="submit"]:hover {
   background-color: #45a049;
 }
 
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vehicles-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle {
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.vehicle p {
+  margin-bottom: 5px;
+}
+
+.vehicle button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
 /* Media Query para pantallas móviles */
 @media screen and (max-width: 480px) {
 

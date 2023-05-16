@@ -21,8 +21,6 @@ const Newsletter = () => {
     window.location.href = './rss';
   };
   
-  
-
   const news = [
     {
       title: 'Nueva BMW M1000RR 2023',
