@@ -49,7 +49,6 @@ function WhishList() {
       <div>
         <Header />
       </div>
-      <h1>Home</h1>
       <form onSubmit={addVehicle}>
         <input
           type="text"
