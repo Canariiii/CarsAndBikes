@@ -24,7 +24,7 @@ CarsAndBikes es tu web para comprar los coches y motos más exclusivos del merca
 
 ## Capturas de pantalla
 
-![](/carandbikes/public/assets/img/captures/Home.png)
+![](https://github.com/Canariiii/CarsAndBikes/tree/master/public/assets/img/captures)
 ![](/carandbikes/public/assets/img/captures/Cars.png)
 
 ## Instalación
