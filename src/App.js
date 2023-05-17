@@ -5,7 +5,7 @@ import Cars from "./pages/cars/Cars";
 import Bikes from "./pages/bikes/Bikes";
 import WhisList from "./pages/whislist/WishList";
 import Newsletter from "./pages/newsletter/NewsLetter";
-import XMLViewer from "./rss/RSSFeed";
+import RSSViewer from "./rss/RSSFeed";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/bikes" element={<Bikes />} />
         <Route path="/whishlist" element={<WhisList />} />
         <Route path="/newsletter" element={<Newsletter />} />
-        <Route path="/rss" element={<XMLViewer />} />
+        <Route path="/rss" element={<RSSViewer />} />
       </Routes>
     </BrowserRouter>
   );

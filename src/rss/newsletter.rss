@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>Ventas de Coches y Motos Exclusivas</title>
-    <link href="./newsletter.rss" rel="alternate" type="application/rss+xml" title="Ventas de Coches y Motos Exclusivas" />
+    <link href="./newsletter.rss" rel="alternate" type="application/rss+xml">https://carsandbikes-18958.web.app/</link>
     <description>Últimas noticias sobre coches y motos exclusivas</description>
     <language>es</language>
-
     <!-- Noticia 1 -->
     <item>
       <title>Nueva BMW M1000RR 2023</title>

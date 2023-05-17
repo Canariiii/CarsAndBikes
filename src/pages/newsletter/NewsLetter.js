@@ -55,7 +55,7 @@ const Newsletter = () => {
         )}
         <div className="news-container">
           <h3>
-            <a href="#" className="fa fa-rss" onClick={handleRSSClick}>
+            <a href="/rss" className="fa fa-rss" onClick={handleRSSClick}>
               <div className="rss-box">
                 <FontAwesomeIcon icon={faRss} className="rss-icon" />
               </div>
